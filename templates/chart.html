@@ -7,7 +7,7 @@
     <meta name="author" content="@gotoariel">
     <!-- <link rel="icon" href="favicon.ico"> -->
 
-    <title>Welcome to StockPrice Chart!</title>
+    <title>Wilkommen, bienvenue, and welcome to Heroku!</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -16,15 +16,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-left">
-          <h2>Price Check!</h2> <br>
-          <label>Check the price trend of a stock by providing ticker id below. You can pick the ticker from the file below:</label>
-          <embed src="ticker_codes.pdf" width="20px" height="20px"/>
-          <p>
-            <form action="/hello" method="post">
-                Ticker Symbol: <input type="text" name="tickerID">
-                <input type="submit" name= "form" value="Submit" />
-            </form>
-          </p>
+          <h1>Price Chart</h1>
+          <div><img src='{{ name }}' alt="Chart" height="420" width="420"></div>
         </div>
       </div>
     </div>

@@ -4,4 +4,7 @@ dill
 flask
 jinja2
 pip
+quandl
+requests
 simplejson
+matplotlib
